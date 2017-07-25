@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# The IBM Lotusphere logo in CSS3
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/css/recreating_the_ibm_lotusphere_logo_in_css3.html), view [the demo](http://demo.marcofolio.net/ibm_lotusphere/) or download the code here.

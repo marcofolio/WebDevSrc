@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>The IBM Lotusphere 2012 logo created using CSS3</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="wrapper">
+    <h1>IBM Lotusphere logo<small>created using CSS3</small></h1>
+    <h2><a href="http://www.marcofolio.net/" title="Visit Marcofolio.net">Marcofolio.net</a></h2>
+    <div id="content">
+        <p>A while ago, I visited the <a href="http://www-01.ibm.com/software/lotus/events/conference/" title="IBM Lotusphere 2012">IBM Lotusphere 2012</a> conference page. One thing that I noticed immediately, was their beautiful logo on the background. Although it's design is very minimal and simple, the logo just looks very good.</p>
+        <p>I wanted to recreate this logo using only HTML and CSS3. The main key to this effect is using the <code>border-radius</code> and <code>overflow:hidden</code> properties. I've created two versions: One that uses extra HTML elements, the second one uses CSS3 pseudo elements.</p>
+        
+        <h3>Technique #1: Extra HTML elements</h3>
+        <p>This technique is pretty straightforward: It uses extra HTML elements to get the desired shape. If you look in the source code, you'll find the (over)use of elements.</p>
+        
+        <div class="lotuslogo">
+            
+            <!-- Row 1 -->
+            <div class="block w9"></div>
+            <div id="x10y01" class="block">
+                <div class="circle"></div>
+            </div>
+            <div id="x11y01" class="block">
+                <div class="circle topRight"></div>
+            </div>
+            <div class="block"></div>
+            <div class="block wLast"></div>
+            
+            <!-- Row 2 -->
+            <div class="block w8"></div>
+            <div id="x09y02" class="block">
+                <div class="fullCircle bottomRight"></div>
+                <div class="fullCircle topRight overlay"></div>
+            </div>            
+            <div id="x10y02" class="block">
+                <div class="fullCircle"></div>
+            </div>
+            <div id="x11y02" class="block">
+                <div class="circle bottomRight"></div>
+            </div>
+            <div class="block"></div>
+            <div class="block wLast"></div>
+            
+            <!-- Row 3 -->
+            <div class="block w6"></div>
+            <div id="x07y03" class="block">
+                <div class="fullCircle"></div>
+            </div>
+            <div id="x08y03" class="block">
+                <div class="fullCircle"></div>
+            </div>
+            <div id="x09y03" class="block">
+                <div class="dot"></div>
+            </div>
+            <div id="x10y03" class="block">
+                <div class="circle"></div>
+            </div>
+            <div class="block"></div>
+            <div id="x12y03" class="block">
+                <div class="fullCircle topRight"></div>
+            </div>
+            <div id="x13y03" class="block wLast"></div>
+            
+            <!-- Row 4 -->
+            <div class="block w5"></div>
+            <div id="x06y04" class="block">
+                <div class="circle bottomLeft"></div>
+            </div>
+            <div id="x07y04" class="block">
+                <div class="fullCircle bottomRight"></div>
+            </div>
+            <div id="x08y04" class="block">
+                <div class="fullCircle"></div>
+            </div>
+            <div id="x09y04" class="block">
+                <div class="fullCircle bottomLeft"></div>
+            </div>
+            <div id="x10y04" class="block">
+                <div class="circle bottomLeft"></div>
+            </div>
+            <div id="x11y04" class="block">
+                <div class="circle bottomRight"></div>
+            </div>
+            <div id="x12y04" class="block">
+                <div class="fullCircle bottomRight"></div>
+            </div>
+            <div id="x13y04" class="block wLast">
+                <div class="fullCircle bottomLeft"></div>
+            </div>
+            
+            
+        </div>
+        
+        <hr />
+        
+        <h3>Technique #2: CSS3 Pseudo Elements</h3>
+        <p>By using CSS3 pseudo elements, we can get rid of the extra HTML we needed in the previous technique in order to create the desired shapes. Take a look at the source code, it looks a lot cleaner. The CSS isn't very much different as well.</p>
+        
+        <div class="lotuslogo">
+            
+            <!-- Row 1 -->
+            <div class="block w9"></div>
+            <div id="px10y01" class="block pCircle"></div>
+            <div id="px11y01" class="block pCircle pTopRight"></div>
+            <div class="block"></div>
+            <div class="block wLast"></div>
+            
+            <!-- Row 2 -->
+            <div class="block w8"></div>
+            <div id="px09y02" class="block"></div>
+            <div id="px10y02" class="block pFullCircle"></div>
+            <div id="px11y02" class="block pCircle pBottomRight"></div>
+            <div class="block"></div>
+            <div class="block wLast"></div>
+            
+            <!-- Row 3 -->
+            <div class="block w6"></div>
+            <div id="px07y03" class="block pFullCircle"></div>
+            <div id="px08y03" class="block pFullCircle"></div>
+            <div id="px09y03" class="block pDot"></div>
+            <div id="px10y03" class="block pCircle"></div>
+            <div class="block"></div>
+            <div id="px12y03" class="block pFullCircle pTopRight"></div>
+            <div id="px13y03" class="block wLast"></div>
+            
+            <!-- Row 4 -->
+            <div class="block w5"></div>
+            <div id="px06y04" class="block pCircle pBottomLeft"></div>
+            <div id="px07y04" class="block pFullCircle pBottomRight"></div>
+            <div id="px08y04" class="block pFullCircle"></div>
+            <div id="px09y04" class="block pFullCircle pBottomLeft"></div>
+            <div id="px10y04" class="block pCircle pBottomLeft"></div>
+            <div id="px11y04" class="block pCircle pBottomRight"></div>
+            <div id="px12y04" class="block pFullCircle pBottomRight"></div>
+            <div id="px13y04" class="block pFullCircle pBottomLeft wLast"></div>
+            
+        </div>
+        
+        <hr />
+        
+        <h3>Reference</h3>
+        <p>This is a reference <strong>image</strong> to see the original logo. As you can see, the differences are minimal.</p>
+        <img src="images/reference.png" alt="Reference image" />
+        
+    </div>
+</div>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Pixellogo from TechCrunch in HTML
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/generating_the_pixellogo_from_techcrunch_in_html.html), view [the demo](http://demo.marcofolio.net/techcrunch_logo/) or download the code here.

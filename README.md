@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# The Facebook loading animation
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/css/css3_quickie_the_facebook_loading_animation.html), view [the demo](http://demo.marcofolio.net/facebook_loader/) or download the code here.

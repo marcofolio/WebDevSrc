@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# CSS animated profile cards
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/css/css_animated_profile_cards.html), view [the demo](http://demo.marcofolio.net/profile_cards/) or download the code here.

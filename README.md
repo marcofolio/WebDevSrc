@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Apple.com navigation menu using CSS3
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/css/the_apple.com_navigation_menu_created_using_only_css3.html), view [the demo](http://demo.marcofolio.net/apple_menu/) or download the code here.

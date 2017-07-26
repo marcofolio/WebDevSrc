@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Slot machine navigation
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/jquery_quickie_slot_machine_navigation.html), view [the demo](http://demo.marcofolio.net/slot_machine/) or download the code here.

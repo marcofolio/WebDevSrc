@@ -1,0 +1,134 @@
+body
+{
+    background-color: #222222;
+}
+
+/* HTML ELEMENTS */
+h1 { font: bold 65px/60px Helvetica, Arial, Sans-serif; text-align: center; color: #eee; text-shadow: 0px 2px 6px #333; margin:0; padding:0; }
+h1 small{ font-size: 20px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; }
+h2 a { display: block; text-decoration: none; margin: 0 0 30px 0; font: italic 45px Georgia, Times, Serif;  text-align: center; color: #bfe1f1; text-shadow: 0px 2px 6px #333; }
+h2 a:hover { color: #90bcd0; }
+#content p { font-family: "Segoe UI","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Arial,Tahoma,Verdana,sans-serif; font-size:13px; color:#eee; }
+
+/* WRAPPER */
+#header { width:800px; margin:40px auto; }
+
+#board
+{
+    width: 500px;
+    height: 500px;
+    background-color: #cccccc;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/background.png");
+    cursor: url("images/blank.png"), default;
+}
+
+#game
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#trace
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 498px;
+    height: 498px;
+    border: 1px solid green;
+}
+
+#player
+{
+    border: 1px solid black;
+    opacity: 0.5;
+    background-color: White;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 20;
+}
+
+#ball
+{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    left: 47.5%;
+    top: 47.5%;
+}
+
+img.ball
+{
+    width: 100%;
+    height: 100%;
+}
+
+#target
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 175px;
+    left: 175px;
+    background-color: Black;
+    opacity: 0.5;
+}
+
+#opponent
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40%;
+    top: 40%;
+    background-color: Red;
+    border: 1px solid White;
+}
+
+#scoreboard
+{
+    width: 480px;
+    background-color: White;
+    border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Trebuchet MS;
+    padding: 20px;
+}
+
+.block
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid black;
+    opacity: 0.25;
+    background-color: Blue;
+    display: none;
+}
+
+#blocks
+{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 8pt;
+}
+
+a
+{
+    color: Orange;
+}

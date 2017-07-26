@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Display social icons in a beautiful way using CSS3
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/css/display_social_icons_in_a_beautiful_way_using_css3.html), view [the demo](http://demo.marcofolio.net/social_css3_display/) or download the code here.

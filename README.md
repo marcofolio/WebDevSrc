@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Lights Off - A puzzle game using HTML5 canvas
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/lights_off_a_puzzle_game_using_html5_canvas.html), view [the demo](http://demo.marcofolio.net/lights_off_canvas/) or download the code here.

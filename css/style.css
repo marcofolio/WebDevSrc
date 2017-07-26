@@ -1,0 +1,103 @@
+/*
+                                __      _ _                   _   
+                               / _|    | (_)                 | |  
+ _ __ ___   __ _ _ __ ___ ___ | |_ ___ | |_  ___   _ __   ___| |_ 
+| '_ ` _ \ / _` | '__/ __/ _ \|  _/ _ \| | |/ _ \ | '_ \ / _ \ __|
+| | | | | | (_| | | | (_| (_) | || (_) | | | (_) || | | |  __/ |_ 
+|_| |_| |_|\__,_|_|  \___\___/|_| \___/|_|_|\___(_)_| |_|\___|\__|
+                                                                  
+*/
+
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* HTML ELEMENTS */
+body { background: -moz-radial-gradient(#364D58,#000); background: -webkit-gradient(radial, center center,10,center center,1000, from(#364D58), to(#000)); color:#555; background-color:#151f23; }
+h1 { font: bold 50px Helvetica, Arial, Sans-serif; text-align: center; color: #eee; text-shadow: 0px 2px 6px #333; }
+h1 small{ font-size: 20px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; margin-top:10px; }
+h2 a { display: block; text-decoration: none; margin: 0 0 30px 0; font: italic 40px Georgia, Times, Serif;  text-align: center; color: #bfe1f1; text-shadow: 0px 2px 6px #333; }
+h2 a:hover { color: #90bcd0; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* WRAPPER */
+#wrapper { width:800px; margin:40px auto; }
+
+/* CONTENT */
+#content { }
+#content h2 { font: bold 30px Helvetica, Arial, Sans-serif; color:#eee; text-shadow: 0px 2px 6px #333; margin-left:400px; padding-top:20px; }
+
+/* BAR CHART */
+#bar { list-style:none;  }
+#bar li { }
+
+/* Last bottom should have a shadow */
+#bar li div.bottom { -moz-box-shadow: 0 10px 10px hsla(0,0%,0%,.2); -webkit-box-shadow: 0 10px 30px hsla(0,0%,0%,.2); box-shadow: 0 10px 30px hsla(0,0%,0%,.2); }
+
+/* Ellipse top */
+#bar li div.top { background-color:rgba(213,238,241,0.5); position:relative; float:left; margin-left:10px;
+	width:40px; height:100px; -moz-border-radius: 40px/100px; -webkit-border-radius: 40px 100px; border-radius: 40px/100px;
+	-webkit-transition-property: margin-left;
+	-webkit-transition-duration: 500ms;
+}
+#bar li div.top img { margin-left:10px; margin-top:15px; }
+
+/* Bar bottom */
+#bar li div.bottom { position:relative; margin:5px 0; width:50px;
+	height:100px; -moz-border-radius: 40px/100px; -webkit-border-radius: 40px 100px; border-radius: 40px/100px;
+	background:-moz-linear-gradient(-90deg, #97a7a9, #b8cbcd); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#97a7a9), to(#b8cbcd));
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 500ms;
+}
+#bar li div.bottom div.infobox { padding:40px 0 0 600px;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 500ms;
+}
+#bar li div.bottom div.infobox h3 { font-family:Georgia,serif,Times; }
+#bar li div.bottom div.infobox p { font-family:"Lucida Grande",Arial,Helvetica,Sans-Serif; opacity: 0;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 500ms;
+}
+
+/* General hover actions */
+#bar li:hover div.bottom div.infobox { color:#eee; text-shadow: 0px 5px 5px #111; }
+#bar li:hover div.bottom div.infobox p { opacity:1; }
+
+/* iPhone bar */
+#iphone div.top { z-index:99; }
+#iphone div.bottom { z-index:98; height:150px; }
+#iphone:hover div.top { z-index:999; background-color:#1f81ac; margin-left:160px; }
+#iphone:hover div.bottom { z-index:998; background-color:#1a6c90; width:200px;
+	background:-moz-linear-gradient(-90deg, #1a6c90, #14506b); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#1a6c90), to(#14506b)); }
+
+/* MacBook bar */
+#macbook div.top { z-index:97; }
+#macbook div.bottom { z-index:96; height:200px; }
+#macbook:hover div.top { z-index:997; background-color:#bc003c; margin-left:210px; }
+#macbook:hover div.bottom { z-index:996; background-color:#9d0032; width:250px;
+	background:-moz-linear-gradient(-90deg, #9d0032, #7a0027); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#9d0032), to(#7a0027)); }
+
+/* iPod bar */
+#ipod div.top { z-index:95; }
+#ipod div.bottom { z-index:94; height:250px; }
+#ipod:hover div.top { z-index:995; background-color:#d98f23; margin-left:270px; }
+#ipod:hover div.bottom { z-index:994; background-color:#b6781e; width:310px;
+	background:-moz-linear-gradient(-90deg, #b6781e, #916018); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#b6781e), to(#916018)); }
+
+/* Cinema Display bar */
+#cinema div.top { z-index:93; }
+#cinema div.bottom { z-index:92; height:100px; }
+#cinema:hover div.top { z-index:993; background-color:#7da864; margin-left:110px; }
+#cinema:hover div.bottom { z-index:992; background-color:#698d54; width:150px;
+	background:-moz-linear-gradient(-90deg, #698d54, #506b40); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#698d54), to(#506b40)); }
+
+/* Mac Mini bar */
+#macmini div.top { z-index:91; }
+#macmini div.bottom { z-index:90; height:120px; }
+#macmini:hover div.top { z-index:991; background-color:#3f1150; margin-left:130px; }
+#macmini:hover div.bottom { z-index:990; background-color:#340e43; width:170px;
+	background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#340e43), to(#1a0721)); }
+
+#apple { clear:both; margin-top:-70px; position:relative; z-index:-999; }
+#apple p { float:right; padding-top:247px; }

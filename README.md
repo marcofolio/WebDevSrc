@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Advanced jQuery background image slideshow
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/advanced_jquery_background_image_slideshow.html), view [the demo](http://demo.marcofolio.net/bgimg_slideshow/) or download the code here.

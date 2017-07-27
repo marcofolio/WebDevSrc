@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>Beautiful advanced jQuery background image slideshow</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="header">
+	<!-- jQuery handles to place the header background images -->
+	<div id="headerimgs">
+		<div id="headerimg1" class="headerimg"></div>
+		<div id="headerimg2" class="headerimg"></div>
+	</div>
+	<!-- Top navigation on top of the images -->
+	<div id="nav-outer">
+		<div id="navigation">
+			<div id="search">
+				<form>
+					<input type="text" id="searchtxt" />
+					<input type="submit" value="search" id="searchbtn" />
+				</form>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="http://www.marcofolio.net/">Marcofolio</a></li>
+					<li><a href="http://www.twitter.com/marcofolio">Twitter</a></li>
+					<li><a href="http://feeds2.feedburner.com/marcofolio">RSS</a></li>
+					<li><a href="http://jquery.com/">jQuery</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+					<li><a href="http://buysellads.com/buy/detail/956">Advertisements</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Slideshow controls -->
+	<div id="headernav-outer">
+		<div id="headernav">
+			<div id="back" class="btn"></div>
+			<div id="control" class="btn"></div>
+			<div id="next" class="btn"></div>
+		</div>
+	</div>
+	<!-- jQuery handles for the text displayed on top of the images -->
+	<div id="headertxt">
+		<p class="caption">
+			<span id="firstline"></span>
+			<a href="#" id="secondline"></a>
+		</p>
+		<p class="pictured">
+			Pictured:
+			<a href="#" id="pictureduri"></a>
+		</p>
+	</div>
+</div>
+<div id="content">
+	<p>&nbsp;</p>
+	<p>Above, you find an example of a beautiful advanced background image slideshow, recreated after the effect as seen on the website from <a href="http://www.visitphilly.com/" title="Visit Philadelphia">Philadelphia</a>. It features changing text and playback controls. When the animation doesn't seem smooth, the images might not be loaded. This script can perfectly be combined with an image preloading plugin to get rid of this effect.</p>
+	<p>This technique heavily relies on <a href="http://jquery.com/" title="jQuery">jQuery</a> combined with CSS. Transparent PNG's are used to create the see-through effect in the menu and text background.</p>
+	<p>Don't forget to read the article to see how it works and download the source code. Tested and works on Firefox, Safari, Chrome and Opera.</p>
+	<p>&nbsp;</p>
+</div>
+</body>
+</html>

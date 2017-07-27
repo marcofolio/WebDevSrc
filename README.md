@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# jFancyTile: A jQuery tile shifting image viewer plugin
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/jfancytile_a_jquery_tile_shifting_image_viewer_plugin.html), view [the demo](http://demo.marcofolio.net/jfancytile/) or download the code here.

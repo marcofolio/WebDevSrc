@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>jFancyTile - Tile shifting image viewer using jQuery</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/jfancytile.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jfancytile.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<h1>jFancyTile<small>Tile shifting image viewer</small></h1>
+	<h2><a href="http://www.marcofolio.net/" title="Visit Marcofolio.net">Marcofolio.net</a></h2>
+	<div id="content">
+		<h4>Demo 1 - Default options</h4>
+		<div id="demo1">
+			<ul>
+				<li><img src="images/01_frog.jpg" alt="Poisonous Frog" /></li>
+				<li><img src="images/02_shark.jpg" alt="Dangerous Shark" /></li>
+				<li><img src="images/03_tiger.jpg" alt="White Tiger" /></li>
+				<li><img src="images/04_snake.jpg" alt="Red Spitting Cobra" /></li>
+				<li><img src="images/05_spider.jpg" alt="Small Spider" /></li>
+			</ul>
+		</div>
+		<h4>Demo 2 - Custom options</h4>
+		<div id="demo2">
+			<ul>
+				<li><img src="images/06_demoiselle.jpg" alt="Green Demoiselle" /></li>
+				<li><img src="images/07_insect.jpg" alt="Small Insect" /></li>
+				<li><img src="images/08_babybug.jpg" alt="Baby Bug" /></li>
+				<li><img src="images/09_bug.jpg" alt="Colourful Bug" /></li>
+				<li><img src="images/10_dragonfly.jpg" alt="Red Dragonfly" /></li>
+			</ul>
+		</div>
+		<div id="info">
+			<p>jFancyTile is a jQuery plugin to show a slideshow in a beautiful, mosaic kind of way. It's very dynamic and easy to use. Make sure you check out the article, download the source and learn how it works!</p>
+			<h4>Options / use:</h4>
+			<p>Make sure your HTML looks like the following:</p>
+<pre>
+&lt;div id=&quot;selector&quot;&gt;
+   &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;images/img01.jpg&quot; alt=&quot;Title 01&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;images/img02.jpg&quot; alt=&quot;Title 02&quot; /&gt;&lt;/li&gt;
+      &lt;!-- More images --&gt;
+   &lt;/ul&gt;
+&lt;/div&gt;
+</pre>		
+			<p>The <code>alt</code> attribute from each image will be used to display as the title on top.</p>
+			<p>Next, include the needed CSS and jQuery files to your HTML head:</p>
+<pre>
+&lt;head&gt;
+   &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/jfancytile.css&quot;/&gt;
+   &lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.jfancytile.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+</pre>
+			<p>Now you're ready to use the plugin! Feel free to change the CSS file to your needs. To use the default options, simply call the plugin on the selector:</p>
+<pre>
+$("#selector").jfancytile();
+</pre>
+			<p>For more customization, you can change the following input variables:</p>
+<pre>
+$("#selector").jfancytile({
+    inEasing: "swing",    // Easing animation of tiles flying IN
+    outEasing: "swing",   // Easing animation of tiles flying OUT
+    inSpeed: 1000,        // Animation speed of tiles flying IN
+    outSpeed: 1000,       // Animation speed of tiles flying OUT
+    rowCount: 8,          // Total number of rows
+    columnCount: 13,      // Total number of columns
+    maxTileShift: 3       // Max amount of positions a tile can shift
+});
+</pre>
+			<p>That's all there is to it!</p>
+			<p>Good things about this plugin:
+				<ul>
+					<li>Easy to use (just include the needed CSS en JS files and change the HTML)</li>
+					<li>Auto-fits (Takes the size of the biggest image and uses that as the container size)</li>
+				</ul>
+			</p>
+			<p>Bad:
+				<ul>
+					<li>CPU intense (loads of DOM creation and animation makes it heavy for slow computers)</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

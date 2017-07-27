@@ -1,0 +1,46 @@
+/*
+                                __      _ _                   _   
+                               / _|    | (_)                 | |  
+ _ __ ___   __ _ _ __ ___ ___ | |_ ___ | |_  ___   _ __   ___| |_ 
+| '_ ` _ \ / _` | '__/ __/ _ \|  _/ _ \| | |/ _ \ | '_ \ / _ \ __|
+| | | | | | (_| | | | (_| (_) | || (_) | | | (_) || | | |  __/ |_ 
+|_| |_| |_|\__,_|_|  \___\___/|_| \___/|_|_|\___(_)_| |_|\___|\__|
+                                                                  
+*/
+
+/* jFancyTile Container */
+#demo1 div.jfancytileContainer { background-color:#222; padding:10px;
+	-moz-box-shadow: 0 0 5px #222; -webkit-box-shadow: 0 0 5px #222; }
+
+/* jFancyTile Title */
+#demo1 h3.jfancytileTitle { position:absolute; z-index:999; font:italic 45px Georgia, Times, Serif; color: #F1861A; text-shadow: 0px 2px 4px #222; margin:10px 20px; }
+
+/* jFancyTile Navigation - Height will be set dynamically */
+#demo1 div.jfancytilenav { width:50px; background-position:center; background-repeat:no-repeat; position:absolute; z-index:99; cursor:pointer; }
+
+/* jFancyTile Forward Navigation */
+#demo1 div.jfancytileForward { background-image:url("../images/nav_forward.png") }
+
+/* jFancyTile Backward Navigation */
+#demo1 div.jfancytileBack { background-image:url("../images/nav_back.png") }
+
+
+
+
+/* jFancyTile Container */
+#demo2 { margin:25px; }
+
+#demo2 div.jfancytileContainer { border:5px solid #222;
+	-moz-box-shadow: 0 0 10px #222; -webkit-box-shadow: 0 0 10px #222; }
+
+/* jFancyTile Title */
+#demo2 h3.jfancytileTitle { position:absolute; z-index:999; font:italic 18px Georgia, Times, Serif; color: #000; text-shadow: 0px 2px 4px #222; margin:10px 20px; }
+
+/* jFancyTile Navigation - Height will be set dynamically */
+#demo2 div.jfancytilenav { width:50px; background-position:center; background-repeat:no-repeat; position:absolute; z-index:99; cursor:pointer; }
+
+/* jFancyTile Forward Navigation */
+#demo2 div.jfancytileForward { background-image:url("../images/nav_forward.png") }
+
+/* jFancyTile Backward Navigation */
+#demo2 div.jfancytileBack { background-image:url("../images/nav_back.png") }

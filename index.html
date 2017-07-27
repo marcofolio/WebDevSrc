@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>Pure CSS3 Bokeh effect with some jQuery help</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="configuration">
+	<h3>Bokeh Effect</h3>
+	<p>Total number of orbs</p>
+	<p><input type="text" id="nrOfOrbs" value="100" /></p>
+	<p>Size between <input type="text" id="orbMin" size="3" value="50" /> and <input type="text" id="orbMax" size="3" value="150" /> px</p>
+	<p>Single colour (RGB) <input type="text" id="orbColour" size="8" value="10, 30, 70" /></p>
+	<p>Or, use random colours <input type="checkbox" id="orbRandom" checked="checked" /></p>
+	<p>Use gradients? <input type="checkbox" id="orbGradient" checked="checked" /></p>
+	<input type="button" id="changeEffects" value="Apply" />
+	<input type="button" id="clearBokeh" value="Clear" />
+	
+	<input type="button" id="hideOptions" value="Hide options" />
+	<input type="button" id="hideTitle" value="Hide title" />
+</div>
+
+<div id="wrapper">
+	<div id="title">
+		<h1>Pure CSS3 Bokeh<small>With some jQuery help</small></h1>
+		<h2><a href="http://www.marcofolio.net/" title="Visit Marcofolio.net">Marcofolio.net</a></h2>
+	</div>
+	<div id="bokehs">
+		<!-- Bokeh will get injected dynamically using jQuery -->
+	</div>
+</div>
+</body>
+</html>

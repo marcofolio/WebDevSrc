@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# jCharacterfall - A small, addictive jQuery game
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/games/jcharacterfall_a_small_addictive_jquery_game.html), view [the demo](http://demo.marcofolio.net/jcharacterfall/) or download the code here.

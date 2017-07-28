@@ -1,0 +1,52 @@
+/*
+                                __      _ _                   _   
+                               / _|    | (_)                 | |  
+ _ __ ___   __ _ _ __ ___ ___ | |_ ___ | |_  ___   _ __   ___| |_ 
+| '_ ` _ \ / _` | '__/ __/ _ \|  _/ _ \| | |/ _ \ | '_ \ / _ \ __|
+| | | | | | (_| | | | (_| (_) | || (_) | | | (_) || | | |  __/ |_ 
+|_| |_| |_|\__,_|_|  \___\___/|_| \___/|_|_|\___(_)_| |_|\___|\__|
+                                                                  
+*/
+
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* HTML ELEMENTS */
+body { font-family:Georgia,serif; font-size:13px; background: #1d1d1d; color: #fff; }
+h1 { margin: 20px 0 0 0; padding:15px; border-left-width:10px; border-left-color:#eeeeee; border-left-style:solid; }
+h1 small{ font-size: 10px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; }
+h2 { font-style:italic; font-size:13px; margin:10px 0 5px 30px; }
+p { margin:10px 0; }
+a { color:#eee; }
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* WRAPPER */
+#wrapper { width:800px; margin:0 auto; }
+
+/* JCHARACTERFALL */
+#jcharacterfall { margin:20px 0; }
+#gamestart { text-align:center; }
+#gamestart p { margin:10px; }
+.extrapadding { padding-top:50px; }
+#gamecontainer { width:600px; margin:0 auto; }
+#waterfall { width:450px; height:500px; float:left; background-color:#DCEAF7;
+	-moz-box-shadow: 0 0 10px #adadad; -moz-border-radius: 5px; -webkit-box-shadow: 0 0 10px #adadad; -webkit-border-radius: 5px; }
+#gamestats { width:98px; height:500px; margin-left:50px; float:left; border:1px solid white;
+	-moz-box-shadow: 0 0 10px #adadad; -moz-border-radius: 5px; -webkit-box-shadow: 0 0 10px #adadad; -webkit-border-radius: 5px; }
+	
+.fallingchar { background-image:url("../images/drop.png"); width:31px; height:50px; background-repeat:no-repeat; }
+.fallingchar p { padding:15px 0px; font-family:"Helvetica Neue",Arial,Helvetica,sans-serif; font-weight:bold; font-size:24px;
+	text-shadow: #fff 0 1px 0; color: #555; margin:0; text-align:center; }
+
+.stats { text-align:center; display:none; }
+.counter { font-size:30px; font-style:italic; font-weight:bold; }
+
+#diffeasy { cursor:pointer; }
+#diffhard { cursor:pointer; }
+
+.gameoverscreen { text-align:center; background-color:#818181; width:200px; height:275px; position:absolute; margin-left:125px; margin-top:100px;
+	-moz-box-shadow: 0 0 10px #adadad; -moz-border-radius: 5px; -webkit-box-shadow: 0 0 10px #adadad; -webkit-border-radius: 5px; }
+.gameoverscreen h2 { margin:0; }
+#info { margin-top:40px; }

@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# The Polaroid Photo Viewer - Non-Full Screen
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/the_polaroid_photo_viewer_non-full_screen.html), view [the demo](http://demo.marcofolio.net/polaroid_photo_container/) or download the code here.

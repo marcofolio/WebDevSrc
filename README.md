@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# Polaroid photo viewer with CSS3 and jQuery
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/webdesign/creating_a_polaroid_photo_viewer_with_css3_and_jquery.html), view [the demo](http://demo.marcofolio.net/polaroid_photo_viewer/) or download the code here.

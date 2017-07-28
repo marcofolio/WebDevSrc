@@ -1,2 +1,2 @@
-# Web Development Demos
-Web Development Demo Source files from [Marcofolio.net](http://marcofolio.net/). Switch branches to get the different demos.
+# jTypingHero - Test your typing skills in this jQuery game
+Source files from demo located at [Marcofolio.net](http://marcofolio.net/). Read [the article](http://www.marcofolio.net/games/jtypinghero_test_your_typing_skills_in_this_jquery_game.html), view [the demo](http://demo.marcofolio.net/jtypinghero/) or download the code here.

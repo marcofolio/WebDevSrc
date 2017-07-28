@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<title>jTypingHero - Test your typing skills in this jQuery game</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<h1>jTypingHero<small>jQuery game by Marcofolio.net</small></h1>
+	<h2>Test your typing skills in this jQuery game</h2>
+	
+	<div id="jtypinghero">
+		<div id="jheroboard">
+			
+			<div id="droppingcharcontainer">
+				<!-- Container for the dropping characters that will be created by jQuery -->
+			</div>
+			
+			<div id="jherocharcontainer">
+				<ul>
+					<li class="orb">A</li>
+					<li class="orb">B</li>
+					<li class="orb">C</li>
+					<li class="orb">D</li>
+					<li class="orb">E</li>
+					<li class="orb">F</li>
+					<li class="orb">G</li>
+					<li class="orb">H</li>
+					<li class="orb">I</li>
+					<li class="orb">J</li>
+					<li class="orb">K</li>
+					<li class="orb">L</li>
+					<li class="orb">M</li>
+					<li class="orb">N</li>
+					<li class="orb">O</li>
+					<li class="orb">P</li>
+					<li class="orb">Q</li>
+					<li class="orb">R</li>
+					<li class="orb">S</li>
+					<li class="orb">T</li>
+					<li class="orb">U</li>
+					<li class="orb">V</li>
+					<li class="orb">W</li>
+					<li class="orb">X</li>
+					<li class="orb">Y</li>
+					<li class="orb">Z</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div id="jherostats">
+			
+			<div id="startscreen">
+				<p><img src="images/start.png" alt="" /></p>
+				<p>Let's see how fast you can type!</p>
+				<p class="extrapadding">&nbsp;</p>
+			</div>
+		
+			<div id="jherostart">
+				<p><img src="images/keyboard.png" alt="" /></p>
+				<p><em>Play!</em></p>
+			</div>
+			
+			<div class="stats">
+				<p><img src="images/clock.png" alt="" /></p>
+				<p class="counter" id="timerstats">0</p>
+				<p>seconds<br />left</p>
+			</div>
+			<div class="stats">
+				<p><img src='images/hit.png' alt="" /></p>
+				<p class="counter" id="hitstats">0</p>
+				<p>hits</p>
+			</div>
+			<div class="stats">
+				<p><img src='images/missed.png' alt="" /></p>
+				<p class="counter" id="missedstats">0</p>
+				<p>missed</p>
+			</div>
+
+		</div>
+	</div>
+	
+	<br class="break" />
+	
+	<div id="info">
+		<p>Quickly after <a href="http://www.marcofolio.net/games/jcharacterfall_a_small_addictive_jquery_game.html" title="jCharacterfall - A small, addictive jQuery game">jCharacterfall</a>, I came up with this game. It looks a bit like jCharacterfall, but is mainly inspired on and <a href="http://www.jamlegend.com/">JamLegend</a>, <a href="http://www.rockband.com/">RockBand</a> and (obviously) <a href="http://guitarhero.com/">Guitar Hero</a>. But, instead of tapping to beats, you'll have to press the correct character on the correct time in a totally random order. Each correct press will make the game faster, which makes it harder but you'll be able to earn more points.</p>
+		<p>Simply press <em>Play!</em> in the screen above to let the orbs containing the characters drop down. All you have to do is type the correct character when they hit the correspondenting one on the bottom! Don't be too fast, but don't be too late either.</p>
+		<p>
+			<ul class="nolist">
+				<li><img src="images/plain.png" alt="" /> <em>Plain</em> - The plain orbs placed on the bottom of the board.</li>
+				<li><img src="images/pressed.png" alt="" /> <em>Pressed</em> - Represents a pressed keyboard hit.</li>
+				<li><img src="images/neutral.png" alt="" /> <em>Neutral</em> - Dropping orb containing a character, worth 1 point.</li>
+				<li><img src="images/miss.png" alt="" /> <em>Missed</em> - Shows when you missed (pressed too soon or waited too long) an orb.</li>
+				<li><img src="images/correct.png" alt="" /> <em>Correct</em> - Shows when you pressed the correct key at the correct time.</li>
+				<li><img src="images/bonus.png" alt="" /> <em>Bonus</em> - Bonus orbs are worth 5 points.</li>
+			</ul>
+		</p>
+		<p>Just as a little disclaimer: If you find this game too easy, I suggest you download the source and poke around in the JavaScript file, changing some values placed on top (like <code>DROPPINGSPEED</code> and <code>NEWORBTIME</code>). This will increase the amount of multiple dropping orbs and will also speed up, but that also means your browser will take <strong>a lot</strong> away from your <a href="http://en.wikipedia.org/wiki/CPU">CPU</a>. If you want to play around with the source (or just learn something from it), be my guest.</p>
+		<p>This fun little game was created by <a href="http://www.marcofolio.net/" title="Visit Marcofolio">Marcofolio.net</a>, showing the power of <a href="http://jquery.com/" title="jQuery">jQuery</a> and some <a href="http://www.css3.info/">CSS3</a>. The icons used are created by <a href="http://www.yellowicon.com/downloads/" title="Crystal Project">YellowIcon</a>.</p>
+	</div>
+</div>
+</body>
+</html>
